@@ -7,10 +7,11 @@ class Nav extends React.Component {
     render () {
       return (
       <div className="nav">
-        
-          <h1>Nav</h1>
-      
-      </div>
+            <Link to='/'></Link>
+            <Link to='/movies'>Movies</Link>
+            <Link to='/people'>People</Link>
+            <Link to='/locations'>Locations</Link>
+        </div>
       )
     }
   }
