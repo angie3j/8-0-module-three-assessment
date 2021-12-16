@@ -42,7 +42,6 @@ class Movies extends React.Component {
             return <option>{movie.title}</option>;
         });
 
-
         return (
         <div className="movies">
 
