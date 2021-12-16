@@ -1,11 +1,11 @@
 import React from "react";
-import "../App.css"
+import "../Locations.css"
 
 
-class App extends React.Component {
+class Locations extends React.Component {
     render () {
       return (
-      <div className="app">
+      <div className="locations">
         
           <h1>Locations</h1>
       
@@ -14,4 +14,4 @@ class App extends React.Component {
     }
   }
   
-  export default App;
+  export default Locations;

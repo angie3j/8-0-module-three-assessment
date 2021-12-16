@@ -2,10 +2,10 @@ import React from "react";
 import "../App.css"
 
 
-class App extends React.Component {
+class People extends React.Component {
     render () {
       return (
-      <div className="app">
+      <div className="people">
         
           <h1>People</h1>
       
@@ -14,4 +14,4 @@ class App extends React.Component {
     }
   }
   
-  export default App;
+  export default People;
